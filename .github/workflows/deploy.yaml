@@ -1,5 +1,9 @@
 name: Build and custom deploy keycloak image
 
+permissions:
+  id-token: write
+  contents: read
+
 on:
   push:
     branches:
