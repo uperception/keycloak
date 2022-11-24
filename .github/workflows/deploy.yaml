@@ -20,7 +20,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           role-to-assume: arn:aws:iam::971064939130:role/ECRKeycloakMMonitoringAction
-          aws-region: aws-east-1
+          aws-region: us-east-1
 
       - name: Login to Amazon ECR Private
         id: login-ecr
